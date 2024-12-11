@@ -1,0 +1,37 @@
+0
+5
+2
+7
+4
+1
+6
+3
+0(true)
+5
+2
+7
+4
+1
+
+
+and then having an initial 1 flips the proces over. 
+
+So what we get is 8*(n mod 38)+(-3 * floor(n/38))
+
+(n mod 38)<<3 + (5 * floor n/38) + n>299
+5 qubit problem. 
+
+5 = 4  + 1 
+
+n>299 is important, we'll be reusing this
+how to do this classically. 
+
+299-n>0
+256 AND (128 OR 64 OR (32 AND (16 or ( 8 and (4 or 2 and 1)))))
+43 32
+11 8
+3 2
+1 1
+
+
+
